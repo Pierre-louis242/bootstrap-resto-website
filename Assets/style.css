@@ -1,1 +1,75 @@
- 
+*{
+    transition: 0.3s;
+}
+
+body{
+    margin: 0%;
+    background-image: url("Images/backgroundBurger.png");
+    background-color: black;
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+header{
+    background-image: url("Images/headerImage.jpg");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px black;
+}
+
+iframe{
+    width: auto;
+    height: 100vh;
+    margin: 2%;
+}
+
+footer{
+    width: auto;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn{
+    border: 2px solid rgba(245, 245, 220, 0.8);
+    padding: 1%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: beige;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #ff9700;
+    border: 2px solid white;
+}
+
+.logoHeader{
+    height: 30vh;
+    border-radius: 20%;
+} 
+
+.logoHeader:hover{
+    height: 35vh;
+    background-color: beige;
+    border-radius: 40%;
+    opacity: 0.8;
+}
+
+.buttonNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.jumbotron{
+    margin: 2%;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
