@@ -8,11 +8,10 @@ body{
     height: 100vh;
     margin: 0%;
     background-image: url("Images/photoBackground.jpg");
-    /* background-color: whitesmoke; */
-    background-position: center center ;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 header{
@@ -85,7 +84,6 @@ footer{
 .btn:hover{
     background-color: white;
     color: #ff9700;
-    border: 2px solid white;
 }
 
 .logoHeader{
@@ -111,6 +109,7 @@ footer{
     margin: 2% 0%;
     padding: 1%;
     background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0%;
 }
 
 /* Content for The HOME Page */
@@ -173,4 +172,117 @@ footer{
     background-color: beige;
     color: #ff9700;
     border: 2px solid rgba(245, 245, 220, 0.8);
+}
+
+/* Content for The MENU Page */
+
+#menuRestaurant{
+    height: 50%;
+    width: 70%;
+    margin: 10% auto;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Content for The PICTURES Page */
+
+#carousRestaurant{
+    height: 80%;
+    width: 80%;
+    margin: 10% auto;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+#photosRestaurant{
+    height: 50%;
+    width: 80%;
+    margin: 10% auto;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imgCarousel{
+    height:20%;
+    width: 60%;
+}
+
+/* Content for The ADRESS Page */
+
+#adressContent{
+    height: 100%;
+    width: 80%;
+    margin: 10% auto;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#locationAndMap{
+    height: 100%;
+    width: 80%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+#differentLocation{
+    height: 100%;
+    width: 30%;
+    margin-right: 10%;
+    border: 1px solid white;
+}
+
+#map{
+    height: 100%;
+    width: 50%;
+    margin-left: 10%;
+    border: 1px solid white;
+}
+
+#imagePhoneMap{
+    width: 30%;
+    height: 30%;
+    border: 1px solid white;
+    margin-top: 5%; 
+}
+
+/* Content for The CONTACT Page */
+
+#contactContent{
+    height: 50%;
+    width: 80%;
+    margin: 10% auto;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
