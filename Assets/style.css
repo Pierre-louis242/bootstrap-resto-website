@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     margin: 0%;
-    background-image: url("Assets/Images/photoBackground.jpg");
+    background-image: url("Images/photoBackground.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background-image: url("Assets/Images/headerImage.jpg");
+    background-image: url("Images/headerImage.jpg");
     background-position: center;
     background-size: cover;
     width: auto;
