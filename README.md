@@ -59,7 +59,7 @@ J'ai pu rencontré quelques difficultés lors de la création de se projet. Part
 
 #### Le lien vers la page internet:
 
-https://pierre-louis242.github.io/
+https://pierre-louis242.github.io/bootstrap-resto-website/
 
 ## Progression 
 
