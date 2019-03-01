@@ -6,7 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Document</title>
+        <link rel="shortcut icon" href="Icon/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="Icon/favicon.ico" type="image/x-icon">
+        <title>B&B Photos</title>
     </head>
     <body>
         <header>
@@ -15,35 +17,27 @@
         
         <div class="jumbotron">
             <div class="buttonNav">
-                <a class=" btn btn-outline-light" href="#" role="button" onclick="location.href='index.html'">Home</a>
-                <a class=" btn btn-outline-light" href="#" role="button" onclick="location.href='menu.html'">Menu</a>
-                <a class=" btn btn-outline-light" href="#" role="button" onclick="location.href='photos.html'">Pictures</a>
-                <a class=" btn btn-outline-light" href="#" role="button" onclick="location.href='adress.html'">Location</a>
-                <a class=" btn btn-outline-light" href="#" role="button" onclick="location.href='contact.html'">Contact</a>
+                <a class="btn" href="#" role="button" onclick="location.href='index.html'">Home</a>
+                <a class="btn" href="#" role="button" onclick="location.href='menu.html'">Menu</a>
+                <a class="btn" href="#" role="button" onclick="location.href='photos.html'">Pictures</a>
+                <a class="btn" href="#" role="button" onclick="location.href='adress.html'">Location</a>
+                <a class="btn" href="#" role="button" onclick="location.href='contact.html'">Contact</a>
             </div>    
         </div>
 
         <div id="carousRestaurant">
+            <h3 id="titreCarous">PHOTOS</h3>
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="Images/photo3.jpg" class="d-block w-100" alt="..."  btn btn-outline-light>
+                        <img src="Images/photo3.jpg" class="d-block w-100" alt="..." btn btn-outline-light>
                     </div>
                     <div class="carousel-item">
                         <img src="Images/photo1.jpg" class="d-block w-100" alt="..." btn btn-outline-light>
                     </div>
                     <div class="carousel-item">
-                        <img src="Images/photo4.jpg" class="d-block w-100" alt="..." btn btn-outline-light>
-                    </div>
-                    <div class="carousel-item">
                             <img src="Images/photo5.jpg" class="d-block w-100" alt="..." btn btn-outline-light>
                     </div>
-                    <!-- <div class="carousel-item">
-                            <img src="Images/photo7.jpg" class="d-block w-100" alt="..." btn btn-outline-light>
-                    </div> -->
-                    <!-- <div class="carousel-item">
-                            <img src="Images/photo10.jpg" class="d-block w-100" alt="..." btn btn-outline-light>
-                    </div> -->
                     <div class="carousel-item">
                             <img src="Images/photo2.jpg" class="d-block w-100" alt="..." btn btn-outline-light>
                     </div>
@@ -60,19 +54,30 @@
         </div>
 
         <div id="photosRestaurant">
-
+            <div class="container">
+                <div class="vertical"><img class="imgBurger" src="Images/photo6.jpg"/></div>
+                <div class="big"><img class="imgBurger" src="Images/photo1.jpg"/></div>
+                <div class="vertical"><img class="imgBurger" src="Images/photo7.jpg"/></div>
+                <div class="big"><img class="imgBurger" src="Images/photo2.jpg"/></div>
+                <div class="vertical"><img class="imgBurger" src="Images/photo8.jpg"/></div>
+                <div class="big"><img class="imgBurger" src="Images/photo3.jpg"/></div>
+                <div class="vertical"><img class="imgBurger" src="Images/photo9.jpg"/></div>
+                <div class="big"><img class="imgBurger" src="Images/photo4.jpg"/></div>
+                <div class="vertical"><img class="imgBurger" src="Images/photo10.jpg"/></div>
+                <div class="big"><img class="imgBurger" src="Images/photo5.jpg"/></div>
+            </div>
         </div>
 
         <footer>
             <div id="logoSocial">
                 <div id="facebook">
-                    <img class="logoMedia" src="Icon/facebook.svg">
+                    <img class="logoMedia" src="Icon/facebook.png">
                 </div>
                 <div id="instagram">
-                    <img class="logoMedia" src="Icon/instagram.svg">
+                    <img class="logoMedia" src="Icon/instagram.png">
                 </div>
                 <div id="twitter">
-                    <img class="logoMedia" src="Icon/twitter.svg">
+                    <img class="logoMedia" src="Icon/twitter.png">
                 </div>
             </div>
         </footer>

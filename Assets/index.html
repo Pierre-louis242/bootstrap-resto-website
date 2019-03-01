@@ -4,28 +4,41 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/    bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/    iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Document</title>
+        <script type="text/javascript" src="main2.js"></script>
+        <link rel="shortcut icon" href="Icon/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="Icon/favicon.ico" type="image/x-icon">
+        <title>B&B Home</title>
     </head>
     <body>
+        <div id="theBandB">
+            <h1 id="theBB">THE B&B</h1>
+        </div>
+        </header>
         <header>
             <img class="logoHeader" src="Images/burgerLogo.png">
         </header>
         
         <div class="jumbotron">
             <div class="buttonNav">
-                <a class="btn btn-primary btn-lg" href="#" role="button" onclick="location.href='index.html'">Home</a>
-                <a class="btn btn-primary btn-lg" href="#" role="button" onclick="location.href='menu.html'">Menu</a>
-                <a class="btn btn-primary btn-lg" href="#" role="button" onclick="location.href='photos.html'">Pictures</a>
-                <a class="btn btn-primary btn-lg" href="#" role="button" onclick="location.href='adress.html'">Location</a>
-                <a class="btn btn-primary btn-lg" href="#" role="button" onclick="location.href='contact.html'">Contact</a>
+                <a class="btn" href="#" role="button" onclick="location.href='index.html'">Home</a>
+                <a class="btn" href="#" role="button" onclick="location.href='menu.html'">Menu</a>
+                <a class="btn" href="#" role="button" onclick="location.href='photos.html'">Pictures</a>
+                <a class="btn" href="#" role="button" onclick="location.href='adress.html'">Location</a>
+                <a class="btn" href="#" role="button" onclick="location.href='contact.html'">Contact</a>
             </div>    
+        </div>
+        <div id="promptName">
+            <h2 id="promptName">Hello</h2>
+            <h3 id="yourName"></h3>
         </div>
         <div class="firstElementHome">
             <div class="resumeResto">
-                <h4 id="titreResume"> BLAH</h4>
-                <p id="textResume">blah blah blah</p>
+                <h3 id="titreResume"><b>A Taste of New York</b></h3>
+                <p id="textResume">
+                    At <b>Burger & Burger</b>,  we like to think of blending burgers like blending a Bordeaux Wine. After 2 years of trial and error we’ve perfected our beef blend using Grass-Fed Irish Angus Beef. Our authentic Belgian fries are made from local fresh potatoes and cooked twice to honor our Belgian heritage! We have created a tasty and beautiful bun based on an original recipe from a Little Italy bakery. Handcrafted and baked daily, they are delivered fresh every single morning. 
+                </p>
             </div>
             <div class="imageHome1">
                 <img id="imageHome1" src="Images/photo6.jpg" alt="Deli Burger">
@@ -34,7 +47,7 @@
         <div class="secondElementHome">
             <img id="imageBottomHome" src="Images/imagePlace.jpg" alt="Restaurant">
             <div class="bookNow">
-                <a>
+                <a onclick="location.href='contact.html'">
                     <h4 id="bookNow">Book Now</h4>
                 </a>
             </div>
@@ -42,18 +55,18 @@
         <footer>
             <div id="logoSocial">
                 <div id="facebook">
-                    <img class="logoMedia" src="Icon/facebook.svg">
+                    <img class="logoMedia" src="Icon/facebook.png">
                 </div>
                 <div id="instagram">
-                    <img class="logoMedia" src="Icon/instagram.svg">
+                    <img class="logoMedia" src="Icon/instagram.png">
                 </div>
                 <div id="twitter">
-                    <img class="logoMedia" src="Icon/twitter.svg">
+                    <img class="logoMedia" src="Icon/twitter.png">
                 </div>
             </div>
         </footer>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X  +965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"     crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"    crossorigin="anonymous"></script>
     </body>

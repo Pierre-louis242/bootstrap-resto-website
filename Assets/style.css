@@ -74,16 +74,17 @@ footer{
 }
 
 .btn{
-    border: 2px solid rgba(245, 245, 220, 0.8);
+    border: 1px solid rgba(245, 245, 220, 0);
     padding: 1%;
-    border-radius: 5px;
+    border-radius: 0%;
     text-decoration: none;
     color: beige;
 }
 
 .btn:hover{
-    background-color: white;
     color: #ff9700;
+    border-left: 1px solid rgba(245, 245, 220, 0.8);
+    border-right:  1px solid rgba(245, 245, 220, 0.8);
 }
 
 .logoHeader{
@@ -114,6 +115,40 @@ footer{
 
 /* Content for The HOME Page */
 
+#promptName{
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+
+#yourName{
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+
+#theBandB{
+    background-color: rgba(0, 0, 0, 0) ;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#theBB{
+    font-size: 5rem;
+    color: #ff9700;
+    padding: 1%;
+    font-weight: bold;
+    border-left: 10px solid #ff9700;
+    border-right: 10px solid #ff9700;
+}
+
 .firstElementHome{
     display: flex; 
     flex-direction: row;
@@ -129,6 +164,12 @@ footer{
     width: 55%;
     height: auto;
     padding: 4%;
+}
+
+#titreResume{
+    color: #ff9700;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #imageHome1{
@@ -162,22 +203,22 @@ footer{
 }
 
 #bookNow{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 25%;
-    border: 2px solid rgba(245, 245, 220, 0.8);
-    border-radius: 5px;
+    border: 1px solid rgba(245, 245, 220, 0);
 }
 
 #bookNow:hover{
-    background-color: beige;
     color: #ff9700;
-    border: 2px solid rgba(245, 245, 220, 0.8);
+    border-left: 1px solid rgba(245, 245, 220, 0.8);
+    border-right:  1px solid rgba(245, 245, 220, 0.8);
+    cursor: pointer;
 }
 
 /* Content for The MENU Page */
 
 #menuRestaurant{
-    height: 50%;
+    height: auto;
     width: 70%;
     margin: 10% auto;
     padding: 4%;
@@ -185,27 +226,89 @@ footer{
     border-radius: 5px;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
+    text-align: center;
+}
+
+.navbar{
+    display: block;
+    margin-bottom: 10%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #007bff;
+    background-color: rgba(245, 245, 220, 0);
+}
+
+.bg-light {
+    background-color: rgba(245, 245, 220, 0) !important;
+}
+
+#titreMenu{
+    color: #ff9700;
+    font-weight: bold;
+    margin: 10%;
+    width: 100%;
+}
+
+#itemMenu{
+    color: beige;
+    border: 1px solid rgba(245, 245, 220, 0);
+    border-radius: 0%;
+}
+
+#itemMenu:hover{
+    text-decoration: none;
+    color: #ff9700;
+    border-left: 1px solid rgba(245, 245, 220, 0.8);
+    border-right:  1px solid rgba(245, 245, 220, 0.8);
+}
+
+.foodContent{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: #ff9700;
+}
+
+h6{
+    margin-bottom: 3%;
+}
+
+.food{
+    margin-bottom: 0%;
+}
+
+.drinks{
+    font-weight: bold;
+}
+
+#item-6{
+    margin-bottom: 4%;
+}
+
+.badge-success{
+    color: beige;
+    background-color: #28a74500;
+    border-left: 1px solid #ff9700;
+    border-radius: 0%;
 }
 
 /* Content for The PICTURES Page */
 
 #carousRestaurant{
-    height: 80%;
+    height: auto;
     width: 80%;
     margin: 10% auto;
-    padding: 4%;
+    padding: 3%;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     color: white;
-    /* display: flex;
-    justify-content: center;
-    align-content: center; */
+    text-align: center;
 }
 
 #photosRestaurant{
-    height: 50%;
+    height: auto;
     width: 80%;
     margin: 10% auto;
     padding: 4%;
@@ -217,12 +320,47 @@ footer{
     align-content: center;
 }
 
-.imgCarousel{
-    height:20%;
-    width: 60%;
+.carousel-inner{
+    margin-bottom: 2%
+}
+
+#titreCarous{
+    color: #ff9700;
+    margin-bottom: 4%;
+    font-weight: bold;
+}
+
+.imgBurger{
+    height: auto; 
+    width: 90%;
+}
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
+}
+
+.horizontal {
+    grid-column: span 2;
+}
+
+.vertical {
+    grid-row: span 2;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 /* Content for The ADRESS Page */
+
+iframe{
+    height: auto;
+}
 
 #adressContent{
     height: 100%;
@@ -244,38 +382,56 @@ footer{
 #locationAndMap{
     height: 100%;
     width: 80%;
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
 }
 
+#location{
+    color: #ff9700;
+    font-weight: bold;
+}
+
 #differentLocation{
     height: 100%;
     width: 30%;
     margin-right: 10%;
-    border: 1px solid white;
 }
 
-#map{
-    height: 100%;
+
+.differentResto{
+    height: auto;
     width: 50%;
-    margin-left: 10%;
-    border: 1px solid white;
+    margin: auto 2%;
+    text-align: center;
+}
+
+.differentResto:hover{
+    border-bottom: 1px solid beige;
+    cursor: pointer;
+}
+
+.nameRestaurant{
+    color: #ff9700;
 }
 
 #imagePhoneMap{
-    width: 30%;
-    height: 30%;
+    width: 80%;
+    height: auto;
     border: 1px solid white;
-    margin-top: 5%; 
 }
+
+#mapRestaurant{
+    height: 100%; 
+    width: 100%;
+}
+
 
 /* Content for The CONTACT Page */
 
 #contactContent{
-    height: 50%;
+    height: auto;
     width: 80%;
     margin: 10% auto;
     padding: 4%;
@@ -283,6 +439,33 @@ footer{
     border-radius: 5px;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
+
+#contactTitre{
+    text-align: center;
+    color: #ff9700;
+    font-weight: bold;
+}
+
+#divSubmitBtn{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: rgba(245, 245, 220, 0);
+}
+
+.btn-primary:hover{
+    background-color: rgba(245, 245, 220, 0);
+    border-bottom: 1px solid rgba(245, 245, 220, 0); 
+    border-top: 1px solid rgba(245, 245, 220, 0);
+}
+
+
+
